@@ -1,0 +1,122 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    LocalFileCache (0.0.1)
+    activesupport (4.1.6)
+      i18n (~> 0.6, >= 0.6.9)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.1)
+      tzinfo (~> 1.1)
+    addressable (2.3.7)
+    buftok (0.2.0)
+    chrono (0.0.4)
+      activesupport
+    crack (0.3.2)
+    dotenv (1.0.2)
+    equalizer (0.0.9)
+    everlog (0.0.8)
+      LocalFileCache
+      evernote_oauth
+      geocoder
+      hatena-bookmark
+      moves
+      octokit
+      tiny_config
+      twitter (~> 5.7.1)
+      wunderground
+    evernote-thrift (1.25.1)
+    evernote_oauth (0.2.3)
+      evernote-thrift
+      oauth (>= 0.4.1)
+    faraday (0.9.1)
+      multipart-post (>= 1.2, < 3)
+    geocoder (1.2.7)
+    hatena-bookmark (0.1.2)
+      crack (~> 0.3.1)
+      oauth (~> 0.4.5)
+    http (0.5.1)
+      http_parser.rb
+    http_parser.rb (0.6.0)
+    httparty (0.13.3)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    i18n (0.6.11)
+    json (1.8.1)
+    mem (0.1.5)
+    memoizable (0.4.2)
+      thread_safe (~> 0.3, >= 0.3.1)
+    mime-types (2.4.3)
+    minitest (5.4.2)
+    moves (0.1.1)
+      rest-client
+    multi_xml (0.5.5)
+    multipart-post (2.0.0)
+    naught (1.0.0)
+    netrc (0.10.2)
+    oauth (0.4.7)
+    octokit (3.7.0)
+      sawyer (~> 0.6.0, >= 0.5.3)
+    rake (10.3.2)
+    redis (3.1.0)
+    redis-namespace (1.5.1)
+      redis (~> 3.0, >= 3.0.4)
+    rest-client (1.7.2)
+      mime-types (>= 1.16, < 3.0)
+      netrc (~> 0.7)
+    ruboty (1.0.4)
+      activesupport
+      bundler
+      dotenv
+      mem
+      slop
+    ruboty-alias (0.0.3)
+      ruboty
+    ruboty-cron (0.0.9)
+      activesupport
+      chrono
+      ruboty (>= 0.2.0)
+    ruboty-redis (0.0.5)
+      redis
+      redis-namespace
+      ruboty
+    ruboty-slack (0.1.7)
+      ruboty (>= 1.0.4)
+      xrc (>= 0.0.6)
+    sawyer (0.6.0)
+      addressable (~> 2.3.5)
+      faraday (~> 0.8, < 0.10)
+    simple_oauth (0.2.0)
+    slop (3.6.0)
+    thread_safe (0.3.4)
+    tiny_config (0.0.2)
+    twitter (5.7.1)
+      addressable (~> 2.3)
+      buftok (~> 0.2.0)
+      equalizer (~> 0.0.9)
+      faraday (~> 0.9.0)
+      http (~> 0.5.0)
+      http_parser.rb (~> 0.6.0)
+      json (~> 1.8)
+      memoizable (~> 0.4.0)
+      naught (~> 1.0)
+      simple_oauth (~> 0.2.0)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+    wunderground (1.2.0)
+      addressable
+      httparty (> 0.6.0)
+      json (> 1.4.0)
+    xrc (0.1.4)
+      activesupport
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  everlog (~> 0.0.8)
+  rake
+  ruboty-alias
+  ruboty-cron
+  ruboty-redis
+  ruboty-slack
