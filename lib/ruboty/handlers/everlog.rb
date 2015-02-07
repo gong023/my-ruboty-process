@@ -13,22 +13,41 @@ module Ruboty
         everlog = ::Everlog::Daily.new
 
         wunderground_option = tokens(:wunderground, :access_token)
-        everlog.push(:weather, wunderground_option) if ! wunderground_option.nil? && ! wunderground_option.empty?
+        if ! wunderground_option.nil? && ! wunderground_option.empty?
+          message.reply '(・8・)ﾃﾝｷ'
+          everlog.push(:weather, wunderground_option)
+        end
 
         twitter_option = tokens(:twitter, :consumer_key, :consumer_secret, :access_token, :access_secret)
-        everlog.push(:twitter, twitter_option) if ! twitter_option.nil? && ! twitter_option.empty?
+        if ! twitter_option.nil? && ! twitter_option.empty?
+          message.reply '(・8・)ﾂｲｯﾀ'
+          everlog.push(:twitter, twitter_option)
+        end
 
         hatena_option = tokens(:hatena, :consumer_key, :consumer_secret, :access_token, :access_secret)
-        everlog.push(:hatena, hatena_option) if ! hatena_option.nil? && ! hatena_option.empty?
+        if ! hatena_option.nil? && ! hatena_option.empty?
+          message.reply '(・8・)ﾊﾃﾅ'
+          everlog.push(:hatena, hatena_option) 
+        end
 
         github_option = tokens(:github, :consumer_key, :consumer_secret, :access_secret)
-        everlog.push(:github, github_option) if ! github_option.nil? && ! github_option.empty?
+        if ! github_option.nil? && ! github_option.empty?
+          message.reply '(・8・)ｷﾞｯﾊﾌﾞ'
+          everlog.push(:github, github_option)
+        end
 
         moves_option = tokens(:moves, :access_token)
-        everlog.push(:moves, moves_option) if ! moves_option.nil? && ! moves_option.empty?
+        if ! moves_option.nil? && ! moves_option.empty?
+          message.reply '(・8・)ﾑﾌﾞｽﾞ'
+          message.reply ENV['EVERLOG_MOVES_ACCESS_TOKEN']
+          everlog.push(:moves, moves_option) 
+        end
 
         animetick_option = tokens(:animetick, :access_token, :access_secret)
-        everlog.push(:animetick, animetick_option) if ! animetick_option.nil? && ! animetick_option.empty?
+        if ! animetick_option.nil? && ! animetick_option.empty?
+          message.reply '(・8・)ｱﾆﾒﾁｸ'
+          everlog.push(:animetick, animetick_option)
+        end
 
         everlog.publish(title, ENV['EVERLOG_EVERNOTE_ACCESS_SECRET'], 'production')
 
