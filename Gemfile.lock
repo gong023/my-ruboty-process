@@ -15,7 +15,7 @@ GEM
     crack (0.3.2)
     dotenv (1.0.2)
     equalizer (0.0.9)
-    everlog (0.0.8)
+    everlog (0.0.9)
       LocalFileCache
       evernote_oauth
       geocoder
@@ -114,7 +114,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  everlog (~> 0.0.8)
+  everlog (~> 0.0.9)
   rake
   ruboty-alias
   ruboty-cron
