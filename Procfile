@@ -1,1 +1,1 @@
-bot: bundle exec ruboty --load lib/ruboty/handlers/everlog.rb
+bot: bundle exec ruboty
