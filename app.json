@@ -23,67 +23,67 @@
     },
     "EVERLOG_WUNDERGROUND_ACCESS_TOKEN": {
       "description": "wunderground access token.",
-      "required": "false",
+      "required": "false"
     },
     "EVERLOG_TWITTER_CONSUMER_KEY": {
       "description": "twitter consumer key.",
-      "required": "false",
+      "required": "false"
     },
     "EVERLOG_TWITTER_CONSUMER_SECRET": {
       "description": "twitter consumer secret.",
-      "required": "false",
+      "required": "false"
     },
     "EVERLOG_TWITTER_ACCESS_TOKEN": {
       "description": "twitter access token.",
-      "required": "false",
+      "required": "false"
     },
     "EVERLOG_TWITTER_ACCESS_SECRET": {
       "description": "twitter access secret.",
-      "required": "false",
+      "required": "false"
     },
     "EVERLOG_MOVES_ACCESS_TOKEN": {
       "description": "moves access token.",
-      "required": "false",
+      "required": "false"
     },
     "EVERLOG_HATENA_CONSUMER_KEY": {
       "description": "hatena consumer key.",
-      "required": "false",
+      "required": "false"
     },
     "EVERLOG_HATENA_CONSUMER_SECRET": {
       "description": "hatena consumer secret.",
-      "required": "false",
+      "required": "false"
     },
     "EVERLOG_HATENA_ACCESS_TOKEN": {
       "description": "hatena access token.",
-      "required": "false",
+      "required": "false"
     },
     "EVERLOG_HATENA_ACCESS_SECRET": {
       "description": "hatena access secret.",
-      "required": "false",
+      "required": "false"
     },
     "EVERLOG_GITHUB_CONSUMER_KEY": {
       "description": "github consumer key.",
-      "required": "false",
+      "required": "false"
     },
     "EVERLOG_GITHUB_CONSUMER_SECRET": {
       "description": "github consumer secret.",
-      "required": "false",
+      "required": "false"
     },
     "EVERLOG_GITHUB_ACCESS_SECRET": {
       "description": "github access secret.",
-      "required": "false",
+      "required": "false"
     },
     "EVERLOG_GITHUB_ACCESS_SECRET": {
       "description": "github access secret.",
-      "required": "false",
+      "required": "false"
     },
     "EVERLOG_ANIMETICK_ACCESS_TOKEN": {
       "description": "animetick access token.",
-      "required": "false",
+      "required": "false"
     },
     "EVERLOG_ANIMETICK_ACCESS_SECRET": {
       "description": "animetick access secret.",
-      "required": "false",
+      "required": "false"
     },
     "TZ": {
       "description": "Timezone.",
