@@ -6,6 +6,4 @@ gem "ruboty-cron"
 gem "ruboty-redis"
 gem "everlog", "~> 0.0.9"
 
-group :production do
-  gem "ruboty-slack"
-end
+gem "ruboty-slack"
