@@ -95,6 +95,9 @@ GEM
     ruboty-slack (0.1.7)
       ruboty (>= 1.0.4)
       xrc (>= 0.0.6)
+    ruboty-twitter_search (0.1.1)
+      ruboty
+      twitter
     sawyer (0.6.0)
       addressable (~> 2.3.5)
       faraday (~> 0.8, < 0.10)
@@ -141,3 +144,4 @@ DEPENDENCIES
   ruboty-japan_weather
   ruboty-redis
   ruboty-slack
+  ruboty-twitter_search
