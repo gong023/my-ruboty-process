@@ -7,5 +7,5 @@ gem "ruboty-redis"
 gem "everlog", "~> 0.0.9"
 
 gem "ruboty-slack"
-gem "ruboty-japan_weather"
+gem "ruboty-weather"
 gem "ruboty-twitter_search"

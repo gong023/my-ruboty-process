@@ -85,6 +85,11 @@
       "description": "animetick access secret.",
       "required": "false"
     },
+    "RUBOTY_WEATHER_CITY": {
+      "description": "city code. default city is Tokyo",
+      "value": "130010",
+      "required": "false"
+    },
     "TZ": {
       "description": "Timezone.",
       "value": "Asia/Tokyo"
