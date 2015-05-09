@@ -1,5 +1,16 @@
 require 'everlog'
 
+class Everlog
+  class Inf::Api::Github < Inf::Api
+    def commits_on(repo, date)
+      return [] if repo == 'ctrl-a'
+      client.commits_on("#{client.user.name}/#{repo}", utc_from_jst(date))
+    rescue => e
+      raise InfrastructureGithubError, "commits_on error / #{e.message}"
+    end
+  end
+end
+
 module Ruboty
   module Handlers
     class Everlog < Base
