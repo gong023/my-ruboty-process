@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+gem 'rb-readline'
+
 gem "rake"
 gem "ruboty-alias"
 gem "ruboty-cron"
